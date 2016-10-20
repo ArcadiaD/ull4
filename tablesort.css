@@ -1,0 +1,9 @@
+/* Orden ascendente */
+table th.sort-up::after {
+  content:"⏷";
+}
+
+/* Orden descendente */
+table th.sort-down::after {
+  content:"⏶";
+}
