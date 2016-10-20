@@ -5,7 +5,7 @@ $(document).ready(function() {
 
     var options = {
       donut: true,
-      donutWidth: 40,
+      donutWidth: 20,
       // startAngle: 270,
       // total: 200
     }
