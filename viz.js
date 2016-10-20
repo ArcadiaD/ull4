@@ -2,7 +2,8 @@ $(document).ready(function() {
     var sample = 'digraph g { antonio -> barbara [style=dashed]; Banco -> Casa [color=red]; Banco -> barbara}';
 
     var options = {
-      format: 'svg'
+      format: 'svg',
+        engine: 'fdp'
       // format: 'png-image-element'
     }
 
