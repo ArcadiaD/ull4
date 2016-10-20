@@ -4,8 +4,8 @@ $(document).ready(function() {
     }
 
     var options = {
-      // donut: true,
-      // donutWidth: 40,
+      donut: true,
+      donutWidth: 40,
       // startAngle: 270,
       // total: 200
     }
