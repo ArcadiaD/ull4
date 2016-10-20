@@ -5,9 +5,9 @@ $(document).ready(function() {
 
     var options = {
       donut: true,
-      donutWidth: 20,
-      // startAngle: 270,
-      // total: 200
+      donutWidth: 50,
+      startAngle: 270,
+      total: 200
     }
 
     new Chartist.Pie('.chart', data, options);
