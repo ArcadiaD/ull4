@@ -1,7 +1,8 @@
 $(document).ready(function() {
         
         
-        var sample = 'A->B: Mensaje';
+        var sample = 'Title: Esto es un título';
+
 
         var diagram = Diagram.parse(sample);
 
