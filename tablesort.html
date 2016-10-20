@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+
+
+
+  <meta charset="UTF-8" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/4.1.0/tablesort.min.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/4.1.0/src/sorts/tablesort.number.js"></script>
+ 
+  <script src="tablesort.js"></script> 
+
+
+  <title>Document de prueba ULL3 table sort</title>
+</head>
+  
+<body>
+    // Tabla con ID "tablesort"
+    table#tablesort
+    // ...dentro, la cabecera de la tabla
+    thead>tr>th{Producto}+th{Cantidad}+th{Precio}
+    // ...y luego, 5 filas con 3 celdas cada una
+    (tr>(td*3))*5
+
+ 
+</body>
+</html>
