@@ -1,5 +1,6 @@
 /* CSS */
-.chart {
-  width: 600px;
-  height: 400px;
+#chart .ct-series-c line,   // puntos
+#chart .ct-series-c path {  // línea
+  stroke: #0F0;
 }
+
